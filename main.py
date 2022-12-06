@@ -8,7 +8,7 @@ from streamlit_cropper import st_cropper
 import numpy as np
 
 
-url = " https:// https://clouds-ivl76q6s4a-ew.a.run.app"
+url = "https://clouds-ivl76q6s4a-ew.a.run.app/predict"
 
 # Just design settings:
 st.set_page_config(
