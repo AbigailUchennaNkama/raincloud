@@ -6,7 +6,7 @@ import requests
 import io
 from streamlit_cropper import st_cropper
 import numpy as np
-import cv2
+
 
 url = " https:// https://clouds-ivl76q6s4a-ew.a.run.app/predict"
 
