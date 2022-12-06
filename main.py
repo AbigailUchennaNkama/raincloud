@@ -63,7 +63,7 @@ if uploaded_file is not None:
         # Progress bar
         st.spinner("Sending the image to the API ...")
         # Sending to API for prediction
-        res = requests.post(url + "/predict", files={'bytes': cropped_img_bytes})
+        res = requests.post(url, files={'bytes': cropped_img_bytes})
         res = res.content
         res = res.decode("utf-8")
 
